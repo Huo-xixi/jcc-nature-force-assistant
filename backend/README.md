@@ -26,3 +26,5 @@ python -m uvicorn app.main:app --app-dir backend --reload
 
 当前推荐权重是可解释的课程基线：英雄匹配 45%、装备适配 25%、羁绊覆盖 20%、公开强度 10%。
 
+SQLite V1 建表设计位于 `app/db/schema.sql`。当前运行时仍读取冻结 JSON；后续导入 SQLite 后会通过相同 Repository 接口切换数据源。
+
