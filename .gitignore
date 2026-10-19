@@ -53,3 +53,7 @@ runs/
 data/raw/screenshots/
 data/private/
 
+# Local-only planning documents
+docs/双人分工计划.md
+docs/GitHub协作规范.md
+
