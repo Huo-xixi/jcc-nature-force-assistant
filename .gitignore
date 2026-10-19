@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node and Vue
+node_modules/
+dist/
+.vite/
+coverage/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+temp/
+
+# Local databases and generated outputs
+*.db
+*.sqlite
+*.sqlite3
+outputs/
+runs/
+
+# Models and large media
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.avi
+*.mov
+
+# Raw screenshots and private local data
+data/raw/screenshots/
+data/private/
+
