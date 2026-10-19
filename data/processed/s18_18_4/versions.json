@@ -1,0 +1,9 @@
+{
+  "dataset_id": "jcc-s18-18.4-pilot",
+  "season": "S18",
+  "season_name": "自然之力",
+  "version": "18.4",
+  "snapshot_date": "2026-10-19",
+  "status": "pilot",
+  "notes": "用于课程项目的可审计小样本，不代表完整英雄与阵容库。"
+}

@@ -1,0 +1,34 @@
+from pathlib import Path
+
+from fastapi import FastAPI
+
+from .schemas.domain import RecommendationRequest, RecommendationResult
+from .services.data_repository import JsonDataRepository
+from .services.recommendation import RecommendationService
+
+
+ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = ROOT / "data" / "processed" / "s18_18_4"
+repository = JsonDataRepository(DATA_DIR)
+service = RecommendationService(repository)
+
+app = FastAPI(
+    title="金铲铲自然之力智能推荐 API",
+    version="0.1.0",
+    description="课程创新实践项目的可解释推荐后端原型。",
+)
+
+
+@app.get("/health")
+def health() -> dict:
+    return {"status": "ok", "dataset": repository.metadata["dataset_id"]}
+
+
+@app.get("/api/v1/data/summary")
+def data_summary() -> dict:
+    return repository.summary()
+
+
+@app.post("/api/v1/recommendations", response_model=list[RecommendationResult])
+def recommendations(request: RecommendationRequest) -> list[dict]:
+    return service.recommend(request.champion_ids, request.item_ids, request.top_k)

@@ -38,8 +38,8 @@ scripts/       数据导入与项目辅助脚本
 - [x] 需求分析
 - [x] 项目实施计划
 - [x] 系统总体设计
-- [ ] 自然之力 18.4 数据集
-- [ ] 推荐算法原型
+- [x] 自然之力 18.4 可审计样例数据集
+- [x] 可解释推荐算法原型
 - [ ] 前后端核心流程
 - [ ] 实时视觉识别
 - [ ] 测试、报告与答辩材料
@@ -48,7 +48,26 @@ scripts/       数据导入与项目辅助脚本
 
 日常开发从 `develop` 创建功能分支，通过 Pull Request 合并回 `develop`。阶段版本经过集成测试后再合并到 `main`。
 
-总体方案参见 [系统总体设计](docs/系统总体设计.md)。
+总体方案参见 [系统总体设计](docs/系统总体设计.md)，字段定义参见 [数据字典](docs/数据字典.md)。
+
+## 本地运行
+
+```powershell
+python scripts/validate_sample_data.py
+python -m unittest discover -s backend/tests -v
+pip install -r backend/requirements.txt
+python -m uvicorn app.main:app --app-dir backend --reload
+```
+
+启动后可访问 `http://127.0.0.1:8000/docs` 调试接口。推荐接口示例输入：
+
+```json
+{
+  "champion_ids": ["3509", "4500", "1511"],
+  "item_ids": ["recurve_bow", "needlessly_large_rod"],
+  "top_k": 3
+}
+```
 
 ## 数据与版本
 
@@ -59,5 +78,5 @@ scripts/       数据导入与项目辅助脚本
 
 ## 项目状态
 
-本项目为课程创新实践项目，目前处于需求分析和总体设计阶段。
+本项目为课程创新实践项目，目前已完成总体设计、18.4 小样本数据层和推荐后端原型。
 

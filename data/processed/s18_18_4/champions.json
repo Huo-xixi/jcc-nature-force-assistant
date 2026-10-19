@@ -1,0 +1,92 @@
+[
+  {
+    "id": "3509", "name": "深红锋喙鸟", "cost": 3,
+    "traits": ["rift_monsters", "quickstriker", "summoner"],
+    "skill_name": "鸟群之家", "role_tags": ["ranged_carry", "attack_speed"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/3509",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/3509.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "4506", "name": "绯红印记树怪", "cost": 4,
+    "traits": ["rift_monsters", "berserker"],
+    "skill_name": "猩红之怒", "role_tags": ["melee_carry", "physical"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/4506",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/4506.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "4500", "name": "苍蓝雕纹魔像", "cost": 4,
+    "traits": ["rift_monsters", "vanguard", "invoker"],
+    "skill_name": "蔚蓝冲击波", "role_tags": ["tank", "control"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/4500",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/4500.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "3503", "name": "远古石甲虫", "cost": 3,
+    "traits": ["rift_monsters", "bruiser"],
+    "skill_name": "岩之摇滚", "role_tags": ["tank", "frontline"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/3503",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/3503.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "2513", "name": "魔沼蛙", "cost": 2,
+    "traits": ["rift_monsters", "magic_warrior"],
+    "skill_name": "打嗝泡泡", "role_tags": ["magic", "utility"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/2513",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/2513.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "2500", "name": "峡谷迅捷蟹", "cost": 2,
+    "traits": ["rift_monsters", "dominator"],
+    "skill_name": "这种快乐你懂吗？", "role_tags": ["tank", "utility"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/2500",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/2500.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "2507", "name": "暗影狼", "cost": 2,
+    "traits": ["rift_monsters", "berserker"],
+    "skill_name": "撕裂之爪", "role_tags": ["melee_carry", "physical"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/2507",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/2507.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "1508", "name": "绯红树怪", "cost": 1,
+    "traits": ["rift_monsters", "hunter"],
+    "skill_name": "刃叶", "role_tags": ["physical", "ranged"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/1508",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/1508.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "1511", "name": "苍蓝哨戒", "cost": 1,
+    "traits": ["rift_monsters", "invoker"],
+    "skill_name": "蔚蓝激光", "role_tags": ["magic", "utility"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/1511",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/1511.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  },
+  {
+    "id": "3501", "name": "蔚", "cost": 3,
+    "traits": ["spirit_of_the_wild", "dominator"],
+    "skill_name": "狂怒之拳", "role_tags": ["fighter", "frontline"],
+    "season": "S18", "version": "18.4",
+    "source_url": "https://jcc.np5.top/tools/seasons/s18/champions/3501",
+    "image_url": "https://jcc.np5.top/season-assets/bbb320f66ce24f59a0440f447d369629/assets/champions/splash/3501.jpg",
+    "collected_at": "2026-10-19", "verification_status": "verified"
+  }
+]

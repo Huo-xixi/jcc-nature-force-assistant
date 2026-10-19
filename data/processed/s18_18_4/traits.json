@@ -1,0 +1,13 @@
+[
+  {"id":"rift_monsters","name":"峡谷野怪","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"spirit_of_the_wild","name":"野兽之灵","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/3501","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"quickstriker","name":"迅捷射手","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/3509","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"summoner","name":"召唤师","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/3509","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"berserker","name":"狂战士","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/4506","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"vanguard","name":"重装战士","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/4500","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"invoker","name":"神谕","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/4500","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"bruiser","name":"斗士","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/3503","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"magic_warrior","name":"魔战士","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/2513","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"dominator","name":"主宰","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/2500","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"hunter","name":"猎人","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/1508","collected_at":"2026-10-19","verification_status":"partial"}
+]

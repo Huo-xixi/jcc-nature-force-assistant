@@ -1,0 +1,30 @@
+[
+  {
+    "id": "dataj_99_rift_monsters_bird",
+    "name": "7野怪鸡哥",
+    "season": "S18",
+    "version": "18.4",
+    "traits": ["rift_monsters", "berserker", "invoker"],
+    "champions": [
+      {"champion_id":"4506","position":"front","is_core":true,"target_star":2,"recommended_item_ids":["sharp_blade","quicksilver","steraksgage"]},
+      {"champion_id":"4500","position":"front","is_core":true,"target_star":2,"recommended_item_ids":["warmogsarmor","ironwill","fimbulwinter"]},
+      {"champion_id":"3503","position":"front","is_core":true,"target_star":3,"recommended_item_ids":["warmogsarmor","ironwill","redemption"]},
+      {"champion_id":"2500","position":"front","is_core":false,"target_star":2,"recommended_item_ids":[]},
+      {"champion_id":"2507","position":"middle","is_core":false,"target_star":2,"recommended_item_ids":[]},
+      {"champion_id":"2513","position":"middle","is_core":false,"target_star":2,"recommended_item_ids":[]},
+      {"champion_id":"1508","position":"back","is_core":false,"target_star":2,"recommended_item_ids":[]},
+      {"champion_id":"1511","position":"back","is_core":false,"target_star":2,"recommended_item_ids":[]},
+      {"champion_id":"3509","position":"back","is_core":true,"target_star":3,"recommended_item_ids":["sharp_blade","runaanshurricane","guinsoosrageblade"]}
+    ],
+    "meta_stats": {
+      "avg_placement": 4.05,
+      "pick_rate": 0.81,
+      "win_rate": 0.147,
+      "top4_rate": 0.576,
+      "sample_count": 10211
+    },
+    "source_url": "https://www.dataj.cc/comp/99",
+    "collected_at": "2026-10-19",
+    "verification_status": "verified"
+  }
+]

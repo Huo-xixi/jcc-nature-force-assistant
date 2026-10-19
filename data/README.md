@@ -8,3 +8,11 @@
 
 数据记录至少包含 `season`、`version`、`id`、`name`、`source_url` 和 `collected_at`。
 
+当前样例快照位于 `processed/s18_18_4`。运行以下命令检查 JSON 格式、ID 唯一性、跨表引用、配方和版本一致性：
+
+```powershell
+python scripts/validate_sample_data.py
+```
+
+来源登记在 `sources/s18_18_4_sources.json`。当前数据仅用于算法联调，扩充数据时应新建或更新对应版本快照，并保留来源记录。
+

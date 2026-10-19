@@ -1,0 +1,33 @@
+{
+  "season": "S18",
+  "version": "18.4",
+  "collected_at": "2026-10-19",
+  "sources": [
+    {
+      "name": "金铲铲资料站英雄数据库",
+      "url": "https://jcc.np5.top/tools/seasons/s18",
+      "usage": "英雄名称、费用、羁绊、技能名称和头像来源定位",
+      "collection_method": "公开 HTML 页面人工核验",
+      "robots_note": "遵守 robots.txt，不访问其中禁止的 /api/ 路径"
+    },
+    {
+      "name": "DataJ 阵容统计",
+      "url": "https://www.dataj.cc/comp/99",
+      "usage": "18.4 阵容构成、推荐装备和公开统计快照",
+      "collection_method": "公开 HTML 页面人工核验",
+      "robots_note": "遵守 robots.txt，不访问禁止路径"
+    },
+    {
+      "name": "弈览游戏装备资料",
+      "url": "https://yilangames.com/items",
+      "usage": "装备名称、合成配方和效果摘要",
+      "collection_method": "公开 HTML 页面人工核验",
+      "robots_note": "遵守 robots.txt，不访问其中禁止的 /api/ 路径"
+    }
+  ],
+  "limitations": [
+    "当前为算法联调小样本，不是完整赛季数据集。",
+    "角色标签由项目组依据技能定位添加，不代表数据源结论。",
+    "页面数据可能随版本更新，分析时必须锁定本目录版本。"
+  ]
+}
