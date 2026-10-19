@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "profile_id": "mumu-6.8.7-shop-1920x1092",
+  "status": "geometry_validated",
+  "enabled": true,
+  "season": "S18",
+  "version": "18.4",
+  "environment": {
+    "platform": "windows_android_emulator",
+    "emulator_name": "MuMu",
+    "emulator_version": "6.8.7",
+    "game_content_size_px": { "width": 1920, "height": 1092 },
+    "emulator_dpi": 273,
+    "windows_scale_percent": 150,
+    "orientation": "landscape"
+  },
+  "capture": {
+    "fps": 1,
+    "coordinate_space": "absolute_screenshot_pixels",
+    "origin": "top-left",
+    "pause_on_resolution_mismatch": true
+  },
+  "shop_region": {
+    "rect_xywh": [335, 840, 1268, 251]
+  },
+  "regions": [
+    { "id": "shop_slot_1", "kind": "champion", "ownership": "shop", "rect_xywh": [542, 910, 205, 170] },
+    { "id": "shop_slot_2", "kind": "champion", "ownership": "shop", "rect_xywh": [752, 910, 205, 170] },
+    { "id": "shop_slot_3", "kind": "champion", "ownership": "shop", "rect_xywh": [962, 910, 205, 170] },
+    { "id": "shop_slot_4", "kind": "champion", "ownership": "shop", "rect_xywh": [1172, 910, 205, 170] },
+    { "id": "shop_slot_5", "kind": "champion", "ownership": "shop", "rect_xywh": [1382, 910, 205, 170] }
+  ],
+  "recognition": {
+    "preprocessing": ["resize_to_template", "bgr_to_gray", "clahe_normalization"],
+    "matcher": "normalized_cross_correlation",
+    "match_threshold": 0.85,
+    "stability_window_frames": 5,
+    "stability_min_agreements": 3,
+    "require_manual_confirmation_below_threshold": true,
+    "require_ownership_confirmation": true
+  },
+  "validation": {
+    "geometry_sample_count": 14,
+    "geometry_validated_at": "2026-10-20",
+    "recognition_accuracy_validated": false
+  }
+}

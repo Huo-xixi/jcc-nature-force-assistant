@@ -28,3 +28,9 @@ node --test frontend/prototypes/week1/resource-model.test.cjs
 
 第一周交付索引见 [`docs/member-b/week1/README.md`](../docs/member-b/week1/README.md)。
 
+## 第二周设计
+
+- 正式 Vue 路由、组件和 Pinia 状态设计：[`docs/member-b/week2/前端目录与状态设计.md`](../docs/member-b/week2/前端目录与状态设计.md)
+- 与 API V1 一致的模拟请求和响应：[`mocks/`](mocks/)
+- 第二周交付索引：[`docs/member-b/week2/README.md`](../docs/member-b/week2/README.md)
+

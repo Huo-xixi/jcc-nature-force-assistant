@@ -15,3 +15,9 @@
 
 个人原始截图保存到 `data/raw/screenshots/member-b/`（Git 已忽略）。只有脱敏后经人工核对的截图才可以单独加入评审材料；不得把屏幕示意图当作真实截图或实验数据。
 
+## 第二周实机配置
+
+MuMu v6.8.7、1920×1092、DPI 273 的配置见 [`configs/emulator-shop-1920x1092.json`](configs/emulator-shop-1920x1092.json)。该配置已通过 14 张截图的分辨率和区域越界检查，但尚未完成英雄模板识别准确率验证。
+
+识别流程、稳定规则和异常降级见 [`docs/member-b/week2/视觉识别流程图.md`](../docs/member-b/week2/视觉识别流程图.md)。
+

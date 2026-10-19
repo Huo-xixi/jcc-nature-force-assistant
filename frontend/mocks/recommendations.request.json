@@ -1,0 +1,5 @@
+{
+  "champion_ids": ["1507", "2512", "2502"],
+  "item_ids": ["bf_sword", "tear_of_the_goddess", "recurve_bow"],
+  "top_k": 3
+}

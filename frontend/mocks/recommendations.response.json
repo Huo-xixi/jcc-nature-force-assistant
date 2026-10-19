@@ -1,0 +1,59 @@
+[
+  {
+    "lineup_id": "dataj_110_varus",
+    "lineup_name": "射箭韦鲁斯",
+    "score": 34.2,
+    "breakdown": {
+      "champion_match": 16.88,
+      "item_fit": 5.0,
+      "trait_coverage": 7.5,
+      "meta_strength": 4.82
+    },
+    "missing_core_champions": ["慎", "蕾欧娜", "洛"],
+    "craftable_recommended_items": ["巨人捕手", "朔极之矛"],
+    "explanation": [
+      "已拥有阵容中的 3/8 名英雄。",
+      "英雄个人羁绊尚未完整核验，本项暂按阵容成员覆盖率估算。",
+      "现有装备可直接满足或合成 2/10 件推荐成装。",
+      "仍缺少核心英雄：慎、蕾欧娜、洛。"
+    ]
+  },
+  {
+    "lineup_id": "dataj_115_akali_camille",
+    "lineup_name": "卡丽蜜儿",
+    "score": 30.78,
+    "breakdown": {
+      "champion_match": 16.88,
+      "item_fit": 2.27,
+      "trait_coverage": 7.5,
+      "meta_strength": 4.13
+    },
+    "missing_core_champions": ["阿卡丽", "卡蜜尔", "奥恩", "蕾欧娜"],
+    "craftable_recommended_items": ["朔极之矛"],
+    "explanation": [
+      "已拥有阵容中的 3/8 名英雄。",
+      "英雄个人羁绊尚未完整核验，本项暂按阵容成员覆盖率估算。",
+      "现有装备可直接满足或合成 1/11 件推荐成装。",
+      "仍缺少核心英雄：阿卡丽、卡蜜尔、奥恩、蕾欧娜。"
+    ]
+  },
+  {
+    "lineup_id": "dataj_88_forest_kayle",
+    "lineup_name": "森林妖姬天使",
+    "score": 25.8,
+    "breakdown": {
+      "champion_match": 12.86,
+      "item_fit": 3.57,
+      "trait_coverage": 5.71,
+      "meta_strength": 3.66
+    },
+    "missing_core_champions": ["奥恩", "蕾欧娜", "霞"],
+    "craftable_recommended_items": ["朔极之矛"],
+    "explanation": [
+      "已拥有阵容中的 2/7 名英雄。",
+      "英雄个人羁绊尚未完整核验，本项暂按阵容成员覆盖率估算。",
+      "现有装备可直接满足或合成 1/7 件推荐成装。",
+      "仍缺少核心英雄：奥恩、蕾欧娜、霞。"
+    ]
+  }
+]
