@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "example_only_no_real_samples",
+  "samples": [],
+  "record_template": {
+    "sample_id": null,
+    "image_path": null,
+    "sha256": null,
+    "captured_at": null,
+    "source": "game_window",
+    "season": "S18",
+    "version": "18.4",
+    "profile_id": null,
+    "content_size_px": null,
+    "windows_scale_percent": null,
+    "privacy_reviewed": false,
+    "labels": [
+      { "region": "shop_slot_1", "entity_id": null, "kind": "champion", "ownership": "shop", "visibility": null, "human_verified": false }
+    ]
+  },
+  "notes": "Keep raw images under ignored data/raw/screenshots/member-b/. Null IDs are placeholders, not an unknown prediction or a labeled sample."
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "profile_id": "emulator-shop-unmeasured",
+  "status": "awaiting_real_screenshot",
+  "enabled": false,
+  "season": "S18",
+  "version": "18.4",
+  "environment": {
+    "platform": "windows_android_emulator",
+    "emulator_name": null,
+    "emulator_version": null,
+    "game_resolution": null,
+    "game_content_size_px": null,
+    "window_outer_size_px": null,
+    "windows_scale_percent": null
+  },
+  "capture": {
+    "fps": 1,
+    "coordinate_space": "normalized_game_content",
+    "game_content_rect_in_client_px": null,
+    "pause_on_resize_or_minimize": true
+  },
+  "regions": [
+    { "id": "shop_slot_1", "kind": "champion", "ownership": "shop", "rect_xywh": null },
+    { "id": "shop_slot_2", "kind": "champion", "ownership": "shop", "rect_xywh": null },
+    { "id": "shop_slot_3", "kind": "champion", "ownership": "shop", "rect_xywh": null },
+    { "id": "shop_slot_4", "kind": "champion", "ownership": "shop", "rect_xywh": null },
+    { "id": "shop_slot_5", "kind": "champion", "ownership": "shop", "rect_xywh": null }
+  ],
+  "experimental_defaults": {
+    "match_threshold": 0.85,
+    "stability_window_frames": 5,
+    "stability_min_agreements": 3,
+    "validated": false
+  },
+  "confirmation": { "require_manual_confirmation": true, "require_ownership_confirmation": true },
+  "notes": "Non-runnable example. Measure actual game-content region and card image rectangles before enabling a real profile."
+}

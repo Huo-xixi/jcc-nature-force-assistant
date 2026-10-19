@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>自然之力助手 · 第一周交互草图</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="#home"><span class="brand-mark">自然</span><span>自然之力助手<small>成员 B · 第一周原型</small></span></a>
+        <nav aria-label="主导航">
+          <a href="#home">01 <span>首页</span></a>
+          <a href="#input">02 <span>资源输入</span></a>
+          <a href="#results">03 <span>推荐列表</span></a>
+          <a href="#detail">04 <span>阵容详情</span></a>
+          <a href="#vision">05 <span>识别确认</span></a>
+        </nav>
+        <div class="sidebar-note"><span class="status-dot"></span>设计评审模式<p>页面使用固定演示数据。<br />未连接游戏或后端服务。</p></div>
+      </aside>
+      <main>
+        <header class="topbar"><span>金铲铲之战 / 决策辅助</span><span class="version">S18 · 18.4 <span>项目数据基准</span></span></header>
+        <div class="prototype-notice">第一周交互草图 · 评分来自固定案例，置信度为模拟值，当前不执行视觉识别。</div>
+        <div id="page"></div>
+        <footer>仅分析画面与辅助决策 · 手动输入始终可用 · 无游戏自动操作</footer>
+      </main>
+    </div>
+    <p id="feedback" class="toast" role="status" aria-live="polite"></p>
+    <script src="./fixtures.js"></script>
+    <script src="./resource-model.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
