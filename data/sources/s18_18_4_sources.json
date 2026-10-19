@@ -12,7 +12,19 @@
     },
     {
       "name": "DataJ 阵容统计",
-      "url": "https://www.dataj.cc/comp/99",
+      "url": "https://www.dataj.cc/comp",
+      "detail_urls": [
+        "https://www.dataj.cc/comp/87",
+        "https://www.dataj.cc/comp/88",
+        "https://www.dataj.cc/comp/89",
+        "https://www.dataj.cc/comp/99",
+        "https://www.dataj.cc/comp/104",
+        "https://www.dataj.cc/comp/105",
+        "https://www.dataj.cc/comp/107",
+        "https://www.dataj.cc/comp/110",
+        "https://www.dataj.cc/comp/115",
+        "https://www.dataj.cc/comp/116"
+      ],
       "usage": "18.4 阵容构成、推荐装备和公开统计快照",
       "collection_method": "公开 HTML 页面人工核验",
       "robots_note": "遵守 robots.txt，不访问禁止路径"
@@ -26,7 +38,8 @@
     }
   ],
   "limitations": [
-    "当前为算法联调小样本，不是完整赛季数据集。",
+    "当前包含 10 套阵容，仍不是完整赛季数据集。",
+    "石皮树、生命花等召唤单位不会进入可购买英雄列表。",
     "角色标签由项目组依据技能定位添加，不代表数据源结论。",
     "页面数据可能随版本更新，分析时必须锁定本目录版本。"
   ]

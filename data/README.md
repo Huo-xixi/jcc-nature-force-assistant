@@ -8,7 +8,7 @@
 
 数据记录至少包含 `season`、`version`、`id`、`name`、`source_url` 和 `collected_at`。
 
-当前样例快照位于 `processed/s18_18_4`。运行以下命令检查 JSON 格式、ID 唯一性、跨表引用、配方和版本一致性：
+当前样例快照位于 `processed/s18_18_4`，包括 41 个英雄、27 个羁绊、32 件装备和 10 套阵容。运行以下命令检查 JSON 格式、ID 唯一性、跨表引用、配方和版本一致性：
 
 ```powershell
 python scripts/validate_sample_data.py

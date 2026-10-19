@@ -19,7 +19,7 @@ class RecommendationServiceTest(unittest.TestCase):
 
     def test_dataset_summary(self):
         self.assertEqual(self.repository.summary()["version"], "18.4")
-        self.assertEqual(self.repository.summary()["lineups"], 1)
+        self.assertEqual(self.repository.summary()["lineups"], 10)
 
     def test_recommendation_contains_explainable_breakdown(self):
         result = self.service.recommend(
@@ -32,6 +32,21 @@ class RecommendationServiceTest(unittest.TestCase):
         self.assertIn("champion_match", result["breakdown"])
         self.assertIn("鬼索的狂暴之刃", result["craftable_recommended_items"])
         self.assertIn("狂徒铠甲", result["craftable_recommended_items"])
+
+    def test_full_roster_ranks_matching_lineup_first(self):
+        result = self.service.recommend(
+            champion_ids=["1507", "2512", "2502", "2503", "1502", "1501", "4509", "3506"],
+            item_ids=["bf_sword", "sparring_gloves", "bf_sword", "tear_of_the_goddess"],
+            top_k=3,
+        )
+        self.assertEqual(len(result), 3)
+        self.assertEqual(result[0]["lineup_name"], "射箭韦鲁斯")
+        self.assertGreater(result[0]["score"], result[1]["score"])
+
+    def test_top_ten_returns_ten_distinct_lineups(self):
+        result = self.service.recommend(champion_ids=[], item_ids=[], top_k=10)
+        self.assertEqual(len(result), 10)
+        self.assertEqual(len({row["lineup_id"] for row in result}), 10)
 
 
 if __name__ == "__main__":

@@ -37,7 +37,18 @@ class RecommendationService:
             for trait_id in self.repository.champion_by_id[champion_id]["traits"]
         }
         lineup_traits = set(lineup["traits"])
-        trait_ratio = len(owned_traits & lineup_traits) / max(len(lineup_traits), 1)
+        trait_metadata_complete = all(
+            self.repository.champion_by_id[champion_id]["traits"]
+            for champion_id in lineup_champion_ids
+        )
+        if trait_metadata_complete:
+            trait_ratio = len(owned_traits & lineup_traits) / max(len(lineup_traits), 1)
+            trait_explanation = (
+                f"已覆盖主要羁绊 {len(owned_traits & lineup_traits)}/{len(lineup_traits)} 个。"
+            )
+        else:
+            trait_ratio = champion_ratio
+            trait_explanation = "英雄个人羁绊尚未完整核验，本项暂按阵容成员覆盖率估算。"
 
         recommended_ids = {
             item_id
@@ -75,7 +86,7 @@ class RecommendationService:
         craftable_names = [self.repository.item_by_id[item_id]["name"] for item_id in craftable]
         explanation = [
             f"已拥有阵容中的 {len(owned_champions & lineup_champion_ids)}/{len(lineup_champion_ids)} 名英雄。",
-            f"已覆盖主要羁绊 {len(owned_traits & lineup_traits)}/{len(lineup_traits)} 个。",
+            trait_explanation,
             f"现有装备可直接满足或合成 {len(available)}/{len(recommended_ids)} 件推荐成装。",
         ]
         if missing_core_names:

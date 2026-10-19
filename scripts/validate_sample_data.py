@@ -87,6 +87,11 @@ def validate() -> list[str]:
     for lineup in lineups:
         label = f"lineup {lineup.get('id')}"
         validate_version(lineup, label, errors)
+        champion_ids = [slot.get("champion_id") for slot in lineup.get("champions", [])]
+        if len(champion_ids) < 7:
+            errors.append(f"{label}: must contain at least seven purchasable champions")
+        if len(champion_ids) != len(set(champion_ids)):
+            errors.append(f"{label}: contains duplicate champions")
         for trait_id in lineup.get("traits", []):
             if trait_id not in trait_by_id:
                 errors.append(f"{label}: unknown trait {trait_id}")
@@ -102,6 +107,17 @@ def validate() -> list[str]:
                     errors.append(f"{label}: unknown item {item_id}")
                 elif item.get("kind") != "completed":
                     errors.append(f"{label}: recommendation references component {item_id}")
+
+        stats = lineup.get("meta_stats", {})
+        if not 1 <= stats.get("avg_placement", 0) <= 8:
+            errors.append(f"{label}: avg_placement must be between 1 and 8")
+        for rate_name in ("win_rate", "top4_rate"):
+            if not 0 <= stats.get(rate_name, -1) <= 1:
+                errors.append(f"{label}: {rate_name} must be a 0-1 decimal")
+        if stats.get("pick_rate", -1) < 0:
+            errors.append(f"{label}: pick_rate cannot be negative")
+        if stats.get("sample_count", 0) <= 0:
+            errors.append(f"{label}: sample_count must be positive")
 
     return errors
 

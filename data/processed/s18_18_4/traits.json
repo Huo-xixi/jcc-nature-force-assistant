@@ -9,5 +9,21 @@
   {"id":"bruiser","name":"斗士","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/3503","collected_at":"2026-10-19","verification_status":"partial"},
   {"id":"magic_warrior","name":"魔战士","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/2513","collected_at":"2026-10-19","verification_status":"partial"},
   {"id":"dominator","name":"主宰","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/2500","collected_at":"2026-10-19","verification_status":"partial"},
-  {"id":"hunter","name":"猎人","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/1508","collected_at":"2026-10-19","verification_status":"partial"}
+  {"id":"hunter","name":"猎人","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://jcc.np5.top/tools/seasons/s18/champions/1508","collected_at":"2026-10-19","verification_status":"partial"},
+  {"id":"black_rose","name":"黑荆棘","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/87","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"eclipse_knight","name":"日蚀骑士","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/88","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"elderwood","name":"永恒之森","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/88","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"guardian","name":"护卫","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/88","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"faerie","name":"花仙子","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/88","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"executioner","name":"裁决使","category":"class","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/105","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"lunar_knight","name":"月蚀骑士","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/105","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"fatal_bloom","name":"绝命花妖","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/105","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"moon_goddess","name":"月华神女","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/105","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"rival","name":"宿敌","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/116","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"inferno","name":"地狱火","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/89","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"gem_knight","name":"宝石骑士","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/89","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"green_father","name":"翠神","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/89","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"apex_predator","name":"顶级掠食者","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/89","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"bounty_hunter","name":"赏金猎人","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/89","collected_at":"2026-10-19","verification_status":"verified"},
+  {"id":"ancient_treant","name":"远古树精","category":"origin","levels":[],"season":"S18","version":"18.4","source_url":"https://www.dataj.cc/comp/89","collected_at":"2026-10-19","verification_status":"verified"}
 ]
