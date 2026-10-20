@@ -1,6 +1,8 @@
 ﻿param(
     [switch]$NoBrowser,
-    [switch]$NoPause
+    [switch]$NoPause,
+    [int]$Port = 8000,
+    [switch]$SelfTest
 )
 
 $ErrorActionPreference = 'Stop'
@@ -19,7 +21,7 @@ function Find-Python {
 
 function Test-DemoHealth {
     try {
-        $response = Invoke-RestMethod -Uri 'http://127.0.0.1:8000/health' -TimeoutSec 1
+        $response = Invoke-RestMethod -Uri "http://127.0.0.1:$Port/health" -TimeoutSec 1
         return $response.status -eq 'ok'
     }
     catch {
@@ -29,6 +31,11 @@ function Test-DemoHealth {
 
 try {
     $python = Find-Python
+    $serverProcess = $null
+    if ($SelfTest) {
+        $NoBrowser = $true
+        $NoPause = $true
+    }
     & $python -c 'import fastapi, uvicorn, numpy, PIL' 2>$null
     if ($LASTEXITCODE -ne 0) {
         throw "Python 依赖不完整。请执行：`"$python`" -m pip install -r backend\requirements.txt"
@@ -39,8 +46,16 @@ try {
     }
     else {
         Write-Host '正在启动金铲铲识别服务……'
-        $serverCommand = '"' + $python + '" -m uvicorn app.main:app --app-dir backend --host 127.0.0.1 --port 8000'
-        Start-Process -FilePath $env:ComSpec -ArgumentList @('/k', $serverCommand) -WorkingDirectory $PSScriptRoot | Out-Null
+        $startParameters = @{
+            FilePath = $python
+            ArgumentList = @('-m', 'uvicorn', 'app.main:app', '--app-dir', 'backend', '--host', '127.0.0.1', '--port', "$Port")
+            WorkingDirectory = $PSScriptRoot
+            PassThru = $true
+        }
+        if ($SelfTest) {
+            $startParameters.WindowStyle = 'Hidden'
+        }
+        $serverProcess = Start-Process @startParameters
 
         $deadline = (Get-Date).AddSeconds(15)
         do {
@@ -62,6 +77,11 @@ try {
     }
 
     Write-Host '演示期间请不要关闭识别服务窗口。'
+    if ($SelfTest -and $serverProcess -and -not $serverProcess.HasExited) {
+        Stop-Process -Id $serverProcess.Id -Force
+        $serverProcess.WaitForExit()
+        Write-Host '[通过] 冷启动自检完成，临时服务已关闭。' -ForegroundColor Green
+    }
     if (-not $NoPause) {
         Read-Host '按 Enter 关闭当前启动窗口'
     }
