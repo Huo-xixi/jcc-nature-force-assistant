@@ -7,6 +7,11 @@ class RecommendationRequest(BaseModel):
     top_k: int = Field(default=3, ge=1, le=10)
 
 
+class VisionRecognitionRequest(BaseModel):
+    image_base64: str = Field(min_length=1)
+    filename: str = Field(default="uploaded-image", max_length=255)
+
+
 class ScoreBreakdown(BaseModel):
     champion_match: float
     item_fit: float

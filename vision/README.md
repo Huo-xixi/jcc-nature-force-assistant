@@ -21,3 +21,29 @@ MuMu v6.8.7、1920×1092、DPI 273 的配置见 [`configs/emulator-shop-1920x109
 
 识别流程、稳定规则和异常降级见 [`docs/member-b/week2/视觉识别流程图.md`](../docs/member-b/week2/视觉识别流程图.md)。
 
+## 一费卡识别 MVP
+
+已根据 DataJ S18 / 18.4 图鉴的“1费”筛选建立模板库。页面共有 15 条一费卡统计记录，其中阿卡丽重复两条且使用同一头像，因此识别器包含 14 个不同视觉类别。
+
+实现文件：
+
+- `one_cost_manifest.json`：15 条统计记录、14 类视觉模板的名称与来源说明。
+- `templates/s18_18_4/one_cost_dataj/`：本地离线原画模板。
+- `recognize_one_cost.py`：固定五卡位裁剪、费用颜色过滤、模板相似度与未知类拒识。
+- `tests/fixtures/`：只保留商店卡片区域的脱敏实机测试图。
+
+运行识别：
+
+```powershell
+& 'D:\Python\python.exe' vision\recognize_one_cost.py `
+  'D:\创新实践课程\jcc 截图\Screenshots\你的截图.png'
+```
+
+运行测试：
+
+```powershell
+& 'D:\Python\python.exe' -m unittest discover -s vision/tests -v
+```
+
+当前 MVP 只接受 1920×1092 截图，只识别五个固定商店卡位中的一费卡。非一费卡、相似度不足或第一第二候选差距过小的卡位输出“未知”，交由前端人工修正，避免强行误报。
+

@@ -23,6 +23,7 @@ python -m uvicorn app.main:app --app-dir backend --reload
 - `GET /health`：服务和数据版本检查
 - `GET /api/v1/data/summary`：返回当前数据快照规模
 - `POST /api/v1/recommendations`：根据已有英雄和装备返回 Top K 阵容、分项评分和解释
+- `POST /api/v1/vision/recognize-one-cost`：接收 Base64 截图，识别五个商店卡位中的 S18 一费英雄
 
 当前推荐权重是可解释的课程基线：英雄匹配 45%、装备适配 25%、羁绊覆盖 20%、公开强度 10%。
 

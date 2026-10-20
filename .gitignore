@@ -56,6 +56,7 @@ data/private/
 # Local-only planning documents
 docs/双人分工计划.md
 docs/GitHub协作规范.md
+docs/成员B详细任务计划.md
 
 # Playwright
 /test-results/

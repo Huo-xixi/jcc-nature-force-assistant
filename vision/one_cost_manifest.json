@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "season": "S18",
+  "version": "18.4",
+  "source_url": "https://www.dataj.cc/explorer",
+  "filter": "1费",
+  "table_row_count": 15,
+  "visual_class_count": 14,
+  "note": "DataJ 表中阿卡丽出现两条统计记录，但两条使用相同头像，因此识别侧合并为一个视觉类别。",
+  "champions": [
+    { "key": "sentry", "id": "1511", "name": "苍蓝哨戒", "template": "templates/s18_18_4/one_cost_dataj/sentry.jpg" },
+    { "key": "rakan", "id": "1501", "name": "洛", "template": "templates/s18_18_4/one_cost_dataj/rakan.jpg" },
+    { "key": "ornn", "id": "1500", "name": "奥恩", "template": "templates/s18_18_4/one_cost_dataj/ornn.jpg" },
+    { "key": "reksai", "id": "1504", "name": "雷克塞", "template": "templates/s18_18_4/one_cost_dataj/reksai.jpg" },
+    { "key": "yorick", "id": "s18_yorick", "name": "约里克", "template": "templates/s18_18_4/one_cost_dataj/yorick.jpg" },
+    { "key": "leona", "id": "1502", "name": "蕾欧娜", "template": "templates/s18_18_4/one_cost_dataj/leona.jpg" },
+    { "key": "cinderling", "id": "1508", "name": "绯红树怪", "template": "templates/s18_18_4/one_cost_dataj/cinderling.jpg" },
+    { "key": "varus", "id": "1507", "name": "韦鲁斯", "template": "templates/s18_18_4/one_cost_dataj/varus.jpg" },
+    { "key": "xayah", "id": "1509", "name": "霞", "template": "templates/s18_18_4/one_cost_dataj/xayah.jpg" },
+    { "key": "camille", "id": "1505", "name": "卡蜜尔", "template": "templates/s18_18_4/one_cost_dataj/camille.jpg" },
+    { "key": "karma", "id": "s18_karma", "name": "卡尔玛", "template": "templates/s18_18_4/one_cost_dataj/karma.jpg" },
+    { "key": "akali", "id": "1513", "name": "阿卡丽", "template": "templates/s18_18_4/one_cost_dataj/akali.jpg", "source_rows": 2 },
+    { "key": "veigar", "id": "s18_veigar", "name": "维迦", "template": "templates/s18_18_4/one_cost_dataj/veigar.jpg" },
+    { "key": "kobuko", "id": "s18_kobuko", "name": "可酷伯", "template": "templates/s18_18_4/one_cost_dataj/kobuko.jpg" }
+  ]
+}

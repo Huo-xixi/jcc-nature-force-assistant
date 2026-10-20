@@ -66,6 +66,56 @@ globalThis.Week1Fixtures = {
       "id": "1507",
       "name": "韦鲁斯",
       "cost": 1
+    },
+    {
+      "id": "1511",
+      "name": "苍蓝哨戒",
+      "cost": 1
+    },
+    {
+      "id": "1504",
+      "name": "雷克塞",
+      "cost": 1
+    },
+    {
+      "id": "s18_yorick",
+      "name": "约里克",
+      "cost": 1
+    },
+    {
+      "id": "1508",
+      "name": "绯红树怪",
+      "cost": 1
+    },
+    {
+      "id": "1509",
+      "name": "霞",
+      "cost": 1
+    },
+    {
+      "id": "1505",
+      "name": "卡蜜尔",
+      "cost": 1
+    },
+    {
+      "id": "s18_karma",
+      "name": "卡尔玛",
+      "cost": 1
+    },
+    {
+      "id": "1513",
+      "name": "阿卡丽",
+      "cost": 1
+    },
+    {
+      "id": "s18_veigar",
+      "name": "维迦",
+      "cost": 1
+    },
+    {
+      "id": "s18_kobuko",
+      "name": "可酷伯",
+      "cost": 1
     }
   ],
   "items": [

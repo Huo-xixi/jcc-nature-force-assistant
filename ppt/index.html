@@ -1320,46 +1320,45 @@
 
 <section class="slide dark" data-layout="S20" data-animate="stacked-ledger">
   <div class="canvas-card">
-    <div class="chrome-min"><div class="l">04 · BACKEND BASELINE</div><div class="r">05 / 10</div></div>
-    <div data-anim="head" style="display:flex;justify-content:space-between;align-items:end;margin-bottom:3vh"><h2 style="font-weight:200;font-size:min(5.8vw,9.6vh);line-height:.96;letter-spacing:-.035em">接口与测试<br/>已经可运行</h2><p class="t-body-sm" style="max-width:34ch;color:rgba(255,255,255,.72)">FastAPI 负责读取数据、返回摘要，并根据玩家输入生成阵容推荐。</p></div>
+    <div class="chrome-min"><div class="l">04 · CURRENT BUILD</div><div class="r">05 / 10</div></div>
+    <div data-anim="head" style="display:flex;justify-content:space-between;align-items:end;margin-bottom:3vh"><h2 style="font-weight:200;font-size:min(5.8vw,9.8vh);line-height:.96;letter-spacing:-.035em">一费卡识别<br/>已经接入网页</h2><p class="t-body-sm" style="max-width:38ch;color:rgba(255,255,255,.72)">FastAPI 接收截图并识别五个商店卡位。网页展示结果，并保留改名、删除和补录入口。</p></div>
     <div class="stacked-ledger" data-anim="ledger" style="display:flex;flex-direction:column;flex:1">
-      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8vh);font-weight:200">03</div><div class="ledger-label"><div class="t-cat on-dark">API ENDPOINTS</div><div class="t-body-sm">健康检查 / 数据摘要 / 推荐请求</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">HTTP</div></div>
-      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8vh);font-weight:200">07</div><div class="ledger-label"><div class="t-cat on-dark">BACKEND TESTS</div><div class="t-body-sm">数据库结构与推荐逻辑全部通过</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">PASS</div></div>
-      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8vh);font-weight:200">10</div><div class="ledger-label"><div class="t-cat on-dark">LINEUP RECORDS</div><div class="t-body-sm">阵容数据由服务层统一加载</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">JSON</div></div>
-      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);border-bottom:2px solid var(--accent-bright);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8vh);font-weight:200;color:var(--accent-bright)">100%</div><div class="ledger-label"><div class="t-cat" style="color:var(--accent-bright)">CURRENT STATUS</div><div class="t-body-sm">现有后端自动化检查全部通过</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">READY</div></div>
-    </div>
-  </div>
-</section>
-
-<section class="slide light" data-layout="S16" data-animate="field-notes">
-  <div class="canvas-card">
-    <div class="chrome-min"><div class="l">05 · FRONTEND PROTOTYPE</div><div class="r">06 / 10</div></div>
-    <div data-anim="line" style="display:flex;justify-content:space-between;align-items:end"><h2 style="font-weight:200;font-size:min(5.6vw,9.4vh);line-height:.96;letter-spacing:-.035em">六个界面状态<br/>串成完整演示</h2><p class="t-body-sm" style="max-width:34ch">从首页、资源录入到推荐详情，再连接游戏商店画面。</p></div>
-    <div data-anim="up" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.4vh 1.2vw;margin-top:4vh;min-height:0;flex:1">
-      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-1.png" data-image-slot="s16-ui-1" alt="首页原型截图"></div><figcaption class="swiss-img-caption"><strong>01 · 首页</strong><span>START</span></figcaption></figure>
-      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-2.png" data-image-slot="s16-ui-2" alt="资源录入原型截图"></div><figcaption class="swiss-img-caption"><strong>02 · 资源</strong><span>INPUT</span></figcaption></figure>
-      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-3.png" data-image-slot="s16-ui-3" alt="推荐列表原型截图"></div><figcaption class="swiss-img-caption"><strong>03 · 推荐</strong><span>RANK</span></figcaption></figure>
-      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-4.png" data-image-slot="s16-ui-4" alt="阵容详情原型截图"></div><figcaption class="swiss-img-caption"><strong>04 · 详情</strong><span>EXPLAIN</span></figcaption></figure>
-      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-5.png" data-image-slot="s16-ui-5" alt="确认状态原型截图"></div><figcaption class="swiss-img-caption"><strong>05 · 确认</strong><span>COMMIT</span></figcaption></figure>
-      <figure class="card-accent" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-6.png" data-image-slot="s16-ui-6" alt="MuMu 商店区域截图"></div><figcaption class="swiss-img-caption" style="border-color:rgba(255,255,255,.35);color:#fff"><strong style="color:#fff">06 · 实战</strong><span>VISION</span></figcaption></figure>
+      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8.5vh);font-weight:200">04</div><div class="ledger-label"><div class="t-cat on-dark">API ENDPOINTS</div><div class="t-body-sm">健康检查、数据摘要、阵容推荐、图像识别</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">HTTP</div></div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8.5vh);font-weight:200">15</div><div class="ledger-label"><div class="t-cat on-dark">ONE-COST RECORDS</div><div class="t-body-sm">按 DataJ S18 18.4 图鉴建立一费卡清单</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">DATA</div></div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8.5vh);font-weight:200">14</div><div class="ledger-label"><div class="t-cat on-dark">VISUAL CLASSES</div><div class="t-body-sm">阿卡丽存在重复记录，对应 14 种不同角色图像</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">IMAGE</div></div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);border-bottom:2px solid var(--accent-bright);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8.5vh);font-weight:200;color:var(--accent-bright)">23</div><div class="ledger-label"><div class="t-cat" style="color:var(--accent-bright)">AUTOMATED CHECKS</div><div class="t-body-sm">后端、视觉识别、网页流程和汇报页面检查全部通过</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">PASS</div></div>
     </div>
   </div>
 </section>
 
 <section class="slide light" data-layout="S22" data-animate="image-hero">
   <div class="canvas-card" style="padding:0;display:flex;flex-direction:column;overflow:hidden">
-    <div data-anim="img" style="position:relative;flex:0 0 58%;overflow:hidden;background:var(--grey-1)">
-      <img src="images/07-shop-annotated.png" data-image-slot="s22-hero-21x9" alt="MuMu 模拟器商店五卡位标注截图" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center center">
-      <div class="chrome-min" style="position:absolute;top:0;left:0;right:0;padding:3.2vh 5vw 0;color:var(--text-helper)"><div class="l">06 · VISUAL PIPELINE</div><div class="r">07 / 10</div></div>
-      <div data-anim="title-block" style="position:absolute;left:5vw;top:10vh;background:var(--paper);padding:2.4vh 2.4vw;max-width:38vw;border-top:3px solid var(--accent)"><div style="font-weight:200;font-size:min(4.8vw,8vh);line-height:.98;letter-spacing:-.035em">截图坐标<br/>完成几何验证</div></div>
+    <div data-anim="img" style="position:relative;flex:0 0 75%;overflow:hidden;background:var(--paper)">
+      <img src="images/06-live-recognition-21x9.png" data-image-slot="s22-hero-21x9" alt="上传 MuMu 实机截图后识别五个一费卡位的网页界面" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center">
+      <div class="chrome-min" style="position:absolute;top:0;left:0;right:0;padding:2.2vh 5vw 0;color:var(--text-helper)"><div class="l">05 · LIVE RECOGNITION</div><div class="r">06 / 10</div></div>
+      <div data-anim="title-block" style="position:absolute;left:2.4vw;top:9vh;background:var(--paper);padding:1.8vh 1.4vw;max-width:14vw;border-top:3px solid var(--accent)"><div style="font-weight:200;font-size:min(2.8vw,5vh);line-height:1;letter-spacing:-.03em">实机截图<br/>自动识别</div></div>
     </div>
-    <div data-anim="kpi" class="image-hero-body" style="padding-top:4.2vh">
-      <p class="t-body" style="max-width:43ch">当前阶段先保证“截哪里”稳定：按 MuMu 固定分辨率裁剪商店区，并验证五个英雄卡位。</p>
-      <div class="image-hero-stats">
-        <div style="display:flex;flex-direction:column;gap:.7vh"><div style="height:1px;background:var(--ink)"></div><div class="t-meta">SHOP SLOTS</div><div class="kpi-hero" style="font-size:min(4.6vw,7.6vh);font-weight:200">05</div><p class="body-sm" style="margin-top:auto">固定卡位</p></div>
-        <div style="display:flex;flex-direction:column;gap:.7vh"><div style="height:1px;background:var(--ink)"></div><div class="t-meta">SAMPLES</div><div class="kpi-hero" style="font-size:min(4.6vw,7.6vh);font-weight:200">14</div><p class="body-sm" style="margin-top:auto">几何验证截图</p></div>
-        <div style="display:flex;flex-direction:column;gap:.7vh"><div style="height:1px;background:var(--accent)"></div><div class="t-meta">CAPTURE</div><div class="kpi-hero" style="font-size:min(3.5vw,6vh);font-weight:200;color:var(--accent)">1920×1092</div><p class="body-sm" style="margin-top:auto">MuMu · 273 DPI</p></div>
-      </div>
+    <div data-anim="kpi" style="flex:1;display:grid;grid-template-columns:1.45fr repeat(3,1fr);gap:2.4vw;padding:2.2vh 5vw 5.8vh;align-items:start">
+      <p class="t-body-sm" style="max-width:43ch">系统从 1920×1092 的 MuMu 截图读取五个商店卡位。本次截图中的五张一费卡均返回角色名称与置信度。</p>
+      <div><div style="height:1px;background:var(--ink)"></div><div class="t-meta" style="margin-top:.6vh">SHOP SLOTS</div><div style="font-size:min(3.4vw,6vh);font-weight:200;line-height:1">05</div></div>
+      <div><div style="height:1px;background:var(--ink)"></div><div class="t-meta" style="margin-top:.6vh">ACCEPTED</div><div style="font-size:min(3.4vw,6vh);font-weight:200;line-height:1">5 / 5</div></div>
+      <div><div style="height:1px;background:var(--accent)"></div><div class="t-meta" style="margin-top:.6vh">INPUT</div><div style="font-size:min(2.4vw,4.2vh);font-weight:200;line-height:1;color:var(--accent)">1920×1092</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S22" data-animate="image-hero">
+  <div class="canvas-card" style="padding:0;display:flex;flex-direction:column;overflow:hidden">
+    <div data-anim="img" style="position:relative;flex:0 0 75%;overflow:hidden;background:var(--paper)">
+      <img src="images/07-live-recommendation-21x9.png" data-image-slot="s22-hero-21x9" alt="识别结果确认后生成三条阵容建议的网页界面" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center">
+      <div class="chrome-min" style="position:absolute;top:0;left:0;right:0;padding:2.2vh 5vw 0;color:var(--text-helper)"><div class="l">06 · RECOMMENDATION RESULT</div><div class="r">07 / 10</div></div>
+      <div data-anim="title-block" style="position:absolute;left:2.4vw;top:9vh;background:var(--paper);padding:1.8vh 1.4vw;max-width:14vw;border-top:3px solid var(--accent)"><div style="font-weight:200;font-size:min(2.8vw,5vh);line-height:1;letter-spacing:-.03em">人工核对<br/>生成建议</div></div>
+    </div>
+    <div data-anim="kpi" style="flex:1;display:grid;grid-template-columns:1.45fr repeat(3,1fr);gap:2.4vw;padding:2.2vh 5vw 5.8vh;align-items:start">
+      <p class="t-body-sm" style="max-width:44ch">识别结果支持人工改名、删除和补录。确认后，页面根据 10 套固定阵容样本生成三条建议。</p>
+      <div><div style="height:1px;background:var(--ink)"></div><div class="t-meta" style="margin-top:.6vh">CONFIRMED</div><div style="font-size:min(3.4vw,6vh);font-weight:200;line-height:1">03</div></div>
+      <div><div style="height:1px;background:var(--ink)"></div><div class="t-meta" style="margin-top:.6vh">RECOMMENDED</div><div style="font-size:min(3.4vw,6vh);font-weight:200;line-height:1">03</div></div>
+      <div><div style="height:1px;background:var(--accent)"></div><div class="t-meta" style="margin-top:.6vh">HUMAN REVIEW</div><div style="font-size:min(2.4vw,4.2vh);font-weight:200;line-height:1;color:var(--accent)">可修正</div></div>
     </div>
   </div>
 </section>
@@ -1367,12 +1366,12 @@
 <section class="slide dark" data-layout="S06" data-animate="measure-up">
   <div class="canvas-card">
     <div class="chrome-min"><div class="l">07 · VERIFICATION</div><div class="r">08 / 10</div></div>
-    <div data-anim="line" style="display:flex;justify-content:space-between;align-items:end"><h2 style="font-weight:200;font-size:min(5.6vw,9.4vh);line-height:.96;letter-spacing:-.035em">第一、二周任务<br/>有可复现证据</h2><p class="t-body-sm" style="max-width:36ch;color:rgba(255,255,255,.72)">四组检查覆盖后端、前端逻辑、浏览器流程与截图坐标。</p></div>
+    <div data-anim="line" style="display:flex;justify-content:space-between;align-items:end"><h2 style="font-weight:200;font-size:min(5.6vw,9.4vh);line-height:.96;letter-spacing:-.035em">当前版本通过<br/>23 项自动检查</h2><p class="t-body-sm" style="max-width:36ch;color:rgba(255,255,255,.72)">后端、视觉识别、网页流程和汇报页面都保留了可重复运行的测试。</p></div>
     <div class="bar-towers" data-anim="up" style="gap:1.4vw;margin-top:4vh">
-      <div class="bar-tower"><div class="cap"><span class="t-meta">PY</span></div><div class="body-block h-2"><div class="lbl">BACKEND</div><div class="nb">07</div><div class="sub">测试通过</div></div></div>
-      <div class="bar-tower"><div class="cap"><span class="t-meta">JS</span></div><div class="body-block h-1"><div class="lbl">UNIT</div><div class="nb">04</div><div class="sub">资源模型测试</div></div></div>
-      <div class="bar-tower"><div class="cap"><span class="t-meta">E2E</span></div><div class="body-block" style="min-height:18vh"><div class="lbl">PLAYWRIGHT</div><div class="nb">02</div><div class="sub">Chromium 流程</div></div></div>
-      <div class="bar-tower"><div class="cap"><span class="t-meta">ROI</span></div><div class="body-block h-4 b-accent"><div class="lbl">GEOMETRY</div><div class="nb">14</div><div class="sub">截图样本验证</div></div></div>
+      <div class="bar-tower"><div class="cap"><span class="t-meta">PY</span></div><div class="body-block" style="min-height:27vh"><div class="lbl">BACKEND</div><div class="nb">07</div><div class="sub">接口与推荐逻辑</div></div></div>
+      <div class="bar-tower"><div class="cap"><span class="t-meta">CV</span></div><div class="body-block" style="min-height:14vh"><div class="lbl">VISION</div><div class="nb">03</div><div class="sub">一费卡识别</div></div></div>
+      <div class="bar-tower"><div class="cap"><span class="t-meta">WEB</span></div><div class="body-block" style="min-height:14vh"><div class="lbl">FRONTEND</div><div class="nb">03</div><div class="sub">上传与修正流程</div></div></div>
+      <div class="bar-tower"><div class="cap"><span class="t-meta">PPT</span></div><div class="body-block h-4 b-accent"><div class="lbl">PRESENTATION</div><div class="nb">10</div><div class="sub">逐页溢出检查</div></div></div>
     </div>
   </div>
 </section>
@@ -1380,17 +1379,17 @@
 <section class="slide light" data-layout="S11" data-animate="timeline-walk">
   <div class="canvas-card">
     <div class="chrome-min"><div class="l">08 · NEXT ITERATION</div><div class="r">09 / 10</div></div>
-    <div data-anim="line"><div class="t-cat">FROM PROTOTYPE TO LIVE DEMO</div><h2 style="font-weight:200;font-size:min(5.8vw,9.8vh);line-height:.96;letter-spacing:-.035em;margin-top:1.4vh">下一步：打通实时输入</h2></div>
+    <div data-anim="line"><div class="t-cat">NEXT ITERATION</div><h2 style="font-weight:200;font-size:min(5.8vw,9.8vh);line-height:.96;letter-spacing:-.035em;margin-top:1.4vh">下一阶段：扩展识别闭环</h2></div>
     <div class="timeline-h" data-anim="timeline">
       <div class="tl-row">
-        <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">01</span><span class="name">持续截图</span><span class="desc">MuMu 固定目录</span></div></div>
-        <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">02</span><span class="name">卡位裁剪</span><span class="desc">5 个 ROI</span></div></div>
-        <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">03</span><span class="name">英雄识别</span><span class="desc">模板匹配</span></div></div>
-        <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">04</span><span class="name">推荐联动</span><span class="desc">调用 FastAPI</span></div></div>
-        <div class="th-node up accent"><span class="dot"></span><div class="label"><span class="yr">05</span><span class="name">课堂演示</span><span class="desc">实时建议面板</span></div></div>
+        <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">01</span><span class="name">扩展费用</span><span class="desc">二至五费卡</span></div></div>
+        <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">02</span><span class="name">补充样本</span><span class="desc">多局标注截图</span></div></div>
+        <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">03</span><span class="name">目录监听</span><span class="desc">自动读取新截图</span></div></div>
+        <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">04</span><span class="name">推荐联动</span><span class="desc">后端重新评分</span></div></div>
+        <div class="th-node up accent"><span class="dot"></span><div class="label"><span class="yr">05</span><span class="name">准确率评估</span><span class="desc">记录错误样本</span></div></div>
       </div>
     </div>
-    <div data-anim="foot" class="t-meta" style="display:flex;justify-content:space-between;border-top:1px solid var(--border-subtle);padding-top:2vh"><span>INPUT → RECOGNIZE → RECOMMEND</span><span style="color:var(--accent)">TARGET · LIVE LOOP</span></div>
+    <div data-anim="foot" class="t-meta" style="display:flex;justify-content:space-between;border-top:1px solid var(--border-subtle);padding-top:2vh"><span>截图、识别、校正、推荐</span><span style="color:var(--accent)">TARGET · COMPLETE LOOP</span></div>
   </div>
 </section>
 
@@ -1402,17 +1401,16 @@
         <div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1"><div class="l">10 / 10</div><div class="r">CLOSING</div></div>
         <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1">
           <div class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">MANIFESTO</div>
-          <h2 style="font-size:min(7.6vw,13vh);line-height:.94;letter-spacing:-.03em;font-weight:200;color:#fff">让数据<br/>进入<span style="font-style:italic;font-weight:300">对局</span></h2>
-          <p class="t-body" style="color:rgba(255,255,255,.82);max-width:30ch">用可验证的小步迭代，把推荐系统从静态原型推进到实时辅助。</p>
+          <h2 style="font-size:min(7.6vw,13vh);line-height:.94;letter-spacing:-.03em;font-weight:200;color:#fff">让截图<br/>变成<span style="font-style:italic;font-weight:300">建议</span></h2>
+          <p class="t-body" style="color:rgba(255,255,255,.82);max-width:30ch">当前版本已经完成一费卡识别，并保留人工修正，保证演示结果可控。</p>
         </div>
         <div data-anim="signature" class="t-meta" style="display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh;position:relative;z-index:1;color:rgba(255,255,255,.62)"><span>JCC ASSISTANT</span><span>S18 · 18.4</span></div>
       </div>
       <div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between">
-        <div class="chrome-min"><div class="l">TAKEAWAYS</div><div class="r">03 RESULTS</div></div>
+        <div class="chrome-min"><div class="l">TAKEAWAYS</div><div class="r">02 RESULTS</div></div>
         <div data-anim="rules" class="takeaway-list" style="display:flex;flex-direction:column">
           <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;padding:2.6vh 0;border-top:1px solid var(--border-subtle)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9">01</div><div><h3 class="t-h-prod">数据基线已经建立</h3><p class="t-body-sm" style="margin-top:1vh">41 英雄、27 羁绊、32 装备、10 阵容。</p></div></div>
-          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;padding:2.6vh 0;border-top:1px solid var(--border-subtle)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9">02</div><div><h3 class="t-h-prod">系统原型已经可运行</h3><p class="t-body-sm" style="margin-top:1vh">FastAPI、网页流程与自动化测试均可复现。</p></div></div>
-          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;padding:2.6vh 0;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9;color:var(--accent)">03</div><div><h3 class="t-h-prod" style="color:var(--accent)">视觉接入已经起步</h3><p class="t-body-sm" style="margin-top:1vh">坐标完成验证，下一阶段聚焦英雄识别准确率。</p></div></div>
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;padding:2.6vh 0;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9">02</div><div><h3 class="t-h-prod">实机识别已经可运行</h3><p class="t-body-sm" style="margin-top:1vh">一费卡 15 条记录，覆盖 14 种不同角色图像。</p></div></div>
         </div>
         <div data-anim="foot" class="t-meta" style="text-align:right;color:var(--text-helper)">THANK YOU · Q&amp;A</div>
       </div>
@@ -1686,8 +1684,7 @@ const initialSlideParam = new URLSearchParams(location.search).get('slide');
 const initialSlide = initialSlideParam ? Number(initialSlideParam) - 1 : 0;
 go(Number.isFinite(initialSlide) ? initialSlide : 0);
 </script>
-<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-<script>lucide.createIcons();</script>
+<script>window.lucide?.createIcons?.();</script>
 
 <!-- Motion One 动效引擎 (与原模板一致) -->
 <script type="module">
