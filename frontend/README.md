@@ -34,3 +34,13 @@ node --test frontend/prototypes/week1/resource-model.test.cjs
 - 与 API V1 一致的模拟请求和响应：[`mocks/`](mocks/)
 - 第二周交付索引：[`docs/member-b/week2/README.md`](../docs/member-b/week2/README.md)
 
+## Playwright 验证
+
+仓库根目录已经初始化 Playwright 1.64.1。首次拉取后运行 `npm install` 和 `npx playwright install chromium`，随后可执行：
+
+```powershell
+npm test                # Chromium 端到端测试
+npm run test:unit       # 资源输入与确认逻辑单元测试
+npm run test:prototype  # 独立原型冒烟脚本并刷新评审截图
+```
+

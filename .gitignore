@@ -57,3 +57,9 @@ data/private/
 docs/双人分工计划.md
 docs/GitHub协作规范.md
 
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/

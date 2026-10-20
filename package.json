@@ -1,0 +1,30 @@
+{
+  "name": "jcc-recommendation-system",
+  "version": "1.0.0",
+  "description": "面向《金铲铲之战》S18「自然之力」18.4 版本的实时视觉分析与智能推荐系统。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:prototype": "node frontend/prototypes/week1/browser-smoke.cjs",
+    "test:unit": "node --test frontend/prototypes/week1/resource-model.test.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huo-xixi/jcc-nature-force-assistant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Huo-xixi/jcc-nature-force-assistant/issues"
+  },
+  "homepage": "https://github.com/Huo-xixi/jcc-nature-force-assistant#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
