@@ -63,3 +63,6 @@ docs/GitHub协作规范.md
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Local PPT visual QA renders
+/ppt/previews/

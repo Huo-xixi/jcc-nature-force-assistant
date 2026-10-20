@@ -1,0 +1,196 @@
+<section class="slide accent" data-layout="S01" data-animate="hero">
+  <div class="canvas-card">
+    <canvas class="ascii-bg" aria-hidden="true"></canvas>
+    <div class="chrome-min" data-anim="chrome">
+      <div class="l">JCC · INNOVATION PRACTICE</div>
+      <div class="r">S18 · 18.4 · 01 / 10</div>
+    </div>
+    <div style="flex:1;display:grid;grid-template-rows:auto 1fr auto;gap:2.6vh">
+      <div data-anim="kicker" class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">GAME AI / VISUAL ANALYSIS</div>
+      <h1 data-anim="title" style="align-self:start;margin-top:4vh;font-family:var(--sans),var(--sans-zh);font-weight:200;font-size:min(10.4vw,17vh);line-height:.94;letter-spacing:-.03em;color:#fff">金铲铲阵容<br/><span style="font-style:italic;font-weight:300">智能助手</span></h1>
+      <div data-anim="bottom" style="display:grid;gap:1.6vh;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh">
+        <p class="lead" style="max-width:56ch;color:rgba(255,255,255,.86)">从结构化赛季数据，到装备与阵容推荐，再到 MuMu 实战画面识别。</p>
+        <div style="display:flex;justify-content:space-between;align-items:end">
+          <div class="t-meta" style="color:rgba(255,255,255,.62)">自然之力赛季 · 阶段成果汇报</div>
+          <div class="t-meta" style="color:rgba(255,255,255,.62)">TUESDAY REVIEW · 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S18" data-animate="why-now">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">01 · WHY THIS PROJECT</div><div class="r">02 / 10</div></div>
+    <div data-anim="line" style="display:flex;align-items:end;justify-content:space-between;border-top:2px solid var(--accent);padding-top:2.4vh">
+      <h2 style="font-weight:200;font-size:min(6.6vw,11vh);line-height:.96;letter-spacing:-.035em">把对局信息<br/>变成可执行建议</h2>
+      <p class="t-body" style="max-width:30ch;color:var(--text-secondary)">目标不是替玩家操作，而是在有限时间内完成信息整理、推荐与解释。</p>
+    </div>
+    <div data-anim="up" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:auto;border-top:1px solid var(--border-subtle);min-height:45vh">
+      <div style="padding:3vh 2.2vw 0 0;display:flex;flex-direction:column;border-right:1px solid var(--border-subtle)">
+        <div><div class="t-cat">DATA BASELINE</div><h3 class="t-h-prod" style="margin-top:1.5vh">赛季对象需要统一建模</h3><p class="t-body-sm" style="margin-top:1.4vh">英雄、羁绊、装备与阵容采用统一版本字段，避免推荐结果脱离赛季。</p></div>
+        <div data-anim="stat" style="margin-top:auto;font-size:min(8.4vw,14vh);font-weight:200;line-height:.9">41</div>
+      </div>
+      <div style="padding:3vh 2.2vw 0;border-right:1px solid var(--border-subtle);display:flex;flex-direction:column">
+        <div><div class="t-cat">LINEUP SAMPLE</div><h3 class="t-h-prod" style="margin-top:1.5vh">阵容不是一条固定答案</h3><p class="t-body-sm" style="margin-top:1.4vh">先以 10 套可解释阵容建立样本，再根据已有英雄与装备计算匹配度。</p></div>
+        <div data-anim="stat" style="margin-top:auto;font-size:min(8.4vw,14vh);font-weight:200;line-height:.9">10</div>
+      </div>
+      <div style="padding:3vh 0 0 2.2vw;display:flex;flex-direction:column">
+        <div><div class="t-cat accent">LIVE SIGNAL</div><h3 class="t-h-prod" style="margin-top:1.5vh">商店画面提供实时信号</h3><p class="t-body-sm" style="margin-top:1.4vh">识别 5 个商店卡位，把截图中的英雄信息接入推荐输入。</p></div>
+        <div data-anim="stat" style="margin-top:auto;font-size:min(8.4vw,14vh);font-weight:200;line-height:.9;color:var(--accent)">05</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide dark" data-layout="S17" data-animate="system-diagram">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">02 · SYSTEM MAP</div><div class="r">03 / 10</div></div>
+    <div data-anim="line" style="display:grid;grid-template-columns:5fr 7fr;gap:5vw;align-items:end">
+      <div><div class="t-cat on-dark">THREE LAYERS</div><h2 style="font-weight:200;font-size:min(6.4vw,10.8vh);line-height:.96;letter-spacing:-.035em;margin-top:1.4vh">数据、推荐、<br/>视觉闭环</h2></div>
+      <p class="t-body-sm" style="color:rgba(255,255,255,.72);max-width:46ch">底层保证版本数据可靠，中层生成可解释推荐，外层连接网页原型与模拟器截图。</p>
+    </div>
+    <div data-anim="up" style="flex:1;display:grid;grid-template-columns:5fr 7fr;gap:5vw;align-items:center;min-height:0">
+      <div style="display:grid;gap:2.4vh">
+        <div data-anim="layer" style="border-top:1px solid rgba(255,255,255,.22);padding-top:1.5vh"><div class="t-cat on-dark">OUTER · INTERACTION</div><p class="t-body">网页原型 / MuMu 截图 / 课堂演示</p></div>
+        <div data-anim="layer" style="border-top:1px solid rgba(255,255,255,.22);padding-top:1.5vh"><div class="t-cat on-dark">MIDDLE · SERVICE</div><p class="t-body">FastAPI 接口 / 匹配评分 / 推荐理由</p></div>
+        <div data-anim="layer" style="border-top:2px solid var(--accent-bright);padding-top:1.5vh"><div class="t-cat" style="color:var(--accent-bright)">CORE · DATA</div><p class="t-body">S18 18.4 结构化赛季数据</p></div>
+      </div>
+      <div style="position:relative;width:100%;height:54vh">
+        <svg viewBox="0 0 600 520" role="img" aria-label="三层系统同心圆图" style="width:100%;height:100%;overflow:visible">
+          <circle cx="300" cy="260" r="220" fill="none" stroke="rgba(255,255,255,.22)" stroke-width="2"/>
+          <circle cx="300" cy="260" r="150" fill="none" stroke="rgba(255,255,255,.52)" stroke-width="2"/>
+          <circle cx="300" cy="260" r="82" fill="var(--accent)" stroke="var(--accent-bright)" stroke-width="2"/>
+        </svg>
+        <div class="t-meta" style="position:absolute;top:1%;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.62)">WEB + VISION</div>
+        <div class="t-h-prod" style="position:absolute;top:29%;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.86);white-space:nowrap">RECOMMENDATION API</div>
+        <div style="position:absolute;top:48%;left:50%;transform:translate(-50%,-50%);text-align:center;color:#fff"><div class="t-h-prod" style="color:#fff">S18 / 18.4</div><div class="t-meta" style="color:rgba(255,255,255,.72)">DATA CORE</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S15" data-animate="matrix-fill">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">03 · LINEUP LIBRARY</div><div class="r">04 / 10</div></div>
+    <div data-anim="line"><div class="t-cat">TEN EXPLAINABLE SAMPLES</div><h2 style="font-weight:200;font-size:min(5.8vw,9.8vh);line-height:.96;letter-spacing:-.035em;margin-top:1.4vh">阵容样本扩充至 10 套</h2></div>
+    <div data-anim="up" style="display:grid;grid-template-columns:repeat(5,1fr);gap:1.2vw;margin-top:6vh">
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">01</div><div class="t-h-prod">7野怪鸡哥</div></div>
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">02</div><div class="t-h-prod">赌狼人</div></div>
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">03</div><div class="t-h-prod">森林妖姬天使</div></div>
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">04</div><div class="t-h-prod">巨龙95</div></div>
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">05</div><div class="t-h-prod">野怪小红</div></div>
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">06</div><div class="t-h-prod">森林月男</div></div>
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">07</div><div class="t-h-prod">野怪小蓝</div></div>
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">08</div><div class="t-h-prod">射箭韦鲁斯</div></div>
+      <div class="card-fill" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">09</div><div class="t-h-prod">卡丽蜜儿</div></div>
+      <div class="card-accent" style="height:13vh;padding:2vh 1.2vw"><div class="t-meta">10</div><div class="t-h-prod" style="color:#fff">裁决螳螂</div></div>
+    </div>
+    <div data-anim="up" style="margin-top:auto;display:flex;justify-content:space-between;align-items:end;border-top:1px solid var(--border-subtle);padding-top:2vh">
+      <div><div class="t-meta">TOTAL LINEUPS</div><div style="font-size:min(8vw,13vh);font-weight:200;line-height:.9;color:var(--accent)">10</div></div>
+      <p class="t-body-sm" style="max-width:45ch;text-align:right">每套阵容包含英雄组成、核心装备与说明，可被推荐接口直接读取。</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide dark" data-layout="S20" data-animate="stacked-ledger">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">04 · BACKEND BASELINE</div><div class="r">05 / 10</div></div>
+    <div data-anim="head" style="display:flex;justify-content:space-between;align-items:end;margin-bottom:3vh"><h2 style="font-weight:200;font-size:min(5.8vw,9.6vh);line-height:.96;letter-spacing:-.035em">接口与测试<br/>已经可运行</h2><p class="t-body-sm" style="max-width:34ch;color:rgba(255,255,255,.72)">FastAPI 负责读取数据、返回摘要，并根据玩家输入生成阵容推荐。</p></div>
+    <div class="stacked-ledger" data-anim="ledger" style="display:flex;flex-direction:column;flex:1">
+      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8vh);font-weight:200">03</div><div class="ledger-label"><div class="t-cat on-dark">API ENDPOINTS</div><div class="t-body-sm">健康检查 / 数据摘要 / 推荐请求</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">HTTP</div></div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8vh);font-weight:200">07</div><div class="ledger-label"><div class="t-cat on-dark">BACKEND TESTS</div><div class="t-body-sm">数据库结构与推荐逻辑全部通过</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">PASS</div></div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8vh);font-weight:200">10</div><div class="ledger-label"><div class="t-cat on-dark">LINEUP RECORDS</div><div class="t-body-sm">阵容数据由服务层统一加载</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">JSON</div></div>
+      <div class="ledger-row" style="display:grid;grid-template-columns:2.4fr 5fr 1fr;align-items:center;border-top:1px solid rgba(255,255,255,.2);border-bottom:2px solid var(--accent-bright);padding:1.5vh 0"><div class="ledger-num" style="font-size:min(5.2vw,8vh);font-weight:200;color:var(--accent-bright)">100%</div><div class="ledger-label"><div class="t-cat" style="color:var(--accent-bright)">CURRENT STATUS</div><div class="t-body-sm">现有后端自动化检查全部通过</div></div><div class="ledger-icon t-meta" style="text-align:right;color:var(--accent-bright)">READY</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S16" data-animate="field-notes">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">05 · FRONTEND PROTOTYPE</div><div class="r">06 / 10</div></div>
+    <div data-anim="line" style="display:flex;justify-content:space-between;align-items:end"><h2 style="font-weight:200;font-size:min(5.6vw,9.4vh);line-height:.96;letter-spacing:-.035em">六个界面状态<br/>串成完整演示</h2><p class="t-body-sm" style="max-width:34ch">从首页、资源录入到推荐详情，再连接游戏商店画面。</p></div>
+    <div data-anim="up" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.4vh 1.2vw;margin-top:4vh;min-height:0;flex:1">
+      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-1.png" data-image-slot="s16-ui-1" alt="首页原型截图"></div><figcaption class="swiss-img-caption"><strong>01 · 首页</strong><span>START</span></figcaption></figure>
+      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-2.png" data-image-slot="s16-ui-2" alt="资源录入原型截图"></div><figcaption class="swiss-img-caption"><strong>02 · 资源</strong><span>INPUT</span></figcaption></figure>
+      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-3.png" data-image-slot="s16-ui-3" alt="推荐列表原型截图"></div><figcaption class="swiss-img-caption"><strong>03 · 推荐</strong><span>RANK</span></figcaption></figure>
+      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-4.png" data-image-slot="s16-ui-4" alt="阵容详情原型截图"></div><figcaption class="swiss-img-caption"><strong>04 · 详情</strong><span>EXPLAIN</span></figcaption></figure>
+      <figure class="card-fill" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-5.png" data-image-slot="s16-ui-5" alt="确认状态原型截图"></div><figcaption class="swiss-img-caption"><strong>05 · 确认</strong><span>COMMIT</span></figcaption></figure>
+      <figure class="card-accent" style="padding:1.2vh 1vw;display:flex;flex-direction:column;min-height:0"><div class="frame-img r-21x9 fit-contain"><img src="images/06-prototype-6.png" data-image-slot="s16-ui-6" alt="MuMu 商店区域截图"></div><figcaption class="swiss-img-caption" style="border-color:rgba(255,255,255,.35);color:#fff"><strong style="color:#fff">06 · 实战</strong><span>VISION</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S22" data-animate="image-hero">
+  <div class="canvas-card" style="padding:0;display:flex;flex-direction:column;overflow:hidden">
+    <div data-anim="img" style="position:relative;flex:0 0 58%;overflow:hidden;background:var(--grey-1)">
+      <img src="images/07-shop-annotated.png" data-image-slot="s22-hero-21x9" alt="MuMu 模拟器商店五卡位标注截图" style="position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center center">
+      <div class="chrome-min" style="position:absolute;top:0;left:0;right:0;padding:3.2vh 5vw 0;color:var(--text-helper)"><div class="l">06 · VISUAL PIPELINE</div><div class="r">07 / 10</div></div>
+      <div data-anim="title-block" style="position:absolute;left:5vw;top:10vh;background:var(--paper);padding:2.4vh 2.4vw;max-width:38vw;border-top:3px solid var(--accent)"><div style="font-weight:200;font-size:min(4.8vw,8vh);line-height:.98;letter-spacing:-.035em">截图坐标<br/>完成几何验证</div></div>
+    </div>
+    <div data-anim="kpi" class="image-hero-body" style="padding-top:4.2vh">
+      <p class="t-body" style="max-width:43ch">当前阶段先保证“截哪里”稳定：按 MuMu 固定分辨率裁剪商店区，并验证五个英雄卡位。</p>
+      <div class="image-hero-stats">
+        <div style="display:flex;flex-direction:column;gap:.7vh"><div style="height:1px;background:var(--ink)"></div><div class="t-meta">SHOP SLOTS</div><div class="kpi-hero" style="font-size:min(4.6vw,7.6vh);font-weight:200">05</div><p class="body-sm" style="margin-top:auto">固定卡位</p></div>
+        <div style="display:flex;flex-direction:column;gap:.7vh"><div style="height:1px;background:var(--ink)"></div><div class="t-meta">SAMPLES</div><div class="kpi-hero" style="font-size:min(4.6vw,7.6vh);font-weight:200">14</div><p class="body-sm" style="margin-top:auto">几何验证截图</p></div>
+        <div style="display:flex;flex-direction:column;gap:.7vh"><div style="height:1px;background:var(--accent)"></div><div class="t-meta">CAPTURE</div><div class="kpi-hero" style="font-size:min(3.5vw,6vh);font-weight:200;color:var(--accent)">1920×1092</div><p class="body-sm" style="margin-top:auto">MuMu · 273 DPI</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slide dark" data-layout="S06" data-animate="measure-up">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">07 · VERIFICATION</div><div class="r">08 / 10</div></div>
+    <div data-anim="line" style="display:flex;justify-content:space-between;align-items:end"><h2 style="font-weight:200;font-size:min(5.6vw,9.4vh);line-height:.96;letter-spacing:-.035em">第一、二周任务<br/>有可复现证据</h2><p class="t-body-sm" style="max-width:36ch;color:rgba(255,255,255,.72)">四组检查覆盖后端、前端逻辑、浏览器流程与截图坐标。</p></div>
+    <div class="bar-towers" data-anim="up" style="gap:1.4vw;margin-top:4vh">
+      <div class="bar-tower"><div class="cap"><span class="t-meta">PY</span></div><div class="body-block h-2"><div class="lbl">BACKEND</div><div class="nb">07</div><div class="sub">测试通过</div></div></div>
+      <div class="bar-tower"><div class="cap"><span class="t-meta">JS</span></div><div class="body-block h-1"><div class="lbl">UNIT</div><div class="nb">04</div><div class="sub">资源模型测试</div></div></div>
+      <div class="bar-tower"><div class="cap"><span class="t-meta">E2E</span></div><div class="body-block" style="min-height:18vh"><div class="lbl">PLAYWRIGHT</div><div class="nb">02</div><div class="sub">Chromium 流程</div></div></div>
+      <div class="bar-tower"><div class="cap"><span class="t-meta">ROI</span></div><div class="body-block h-4 b-accent"><div class="lbl">GEOMETRY</div><div class="nb">14</div><div class="sub">截图样本验证</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="slide light" data-layout="S11" data-animate="timeline-walk">
+  <div class="canvas-card">
+    <div class="chrome-min"><div class="l">08 · NEXT ITERATION</div><div class="r">09 / 10</div></div>
+    <div data-anim="line"><div class="t-cat">FROM PROTOTYPE TO LIVE DEMO</div><h2 style="font-weight:200;font-size:min(5.8vw,9.8vh);line-height:.96;letter-spacing:-.035em;margin-top:1.4vh">下一步：打通实时输入</h2></div>
+    <div class="timeline-h" data-anim="timeline">
+      <div class="tl-row">
+        <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">01</span><span class="name">持续截图</span><span class="desc">MuMu 固定目录</span></div></div>
+        <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">02</span><span class="name">卡位裁剪</span><span class="desc">5 个 ROI</span></div></div>
+        <div class="th-node up"><span class="dot"></span><div class="label"><span class="yr">03</span><span class="name">英雄识别</span><span class="desc">模板匹配</span></div></div>
+        <div class="th-node down"><span class="dot"></span><div class="label"><span class="yr">04</span><span class="name">推荐联动</span><span class="desc">调用 FastAPI</span></div></div>
+        <div class="th-node up accent"><span class="dot"></span><div class="label"><span class="yr">05</span><span class="name">课堂演示</span><span class="desc">实时建议面板</span></div></div>
+      </div>
+    </div>
+    <div data-anim="foot" class="t-meta" style="display:flex;justify-content:space-between;border-top:1px solid var(--border-subtle);padding-top:2vh"><span>INPUT → RECOGNIZE → RECOMMEND</span><span style="color:var(--accent)">TARGET · LIVE LOOP</span></div>
+  </div>
+</section>
+
+<section class="slide split" data-layout="S10" data-animate="split-statement">
+  <div class="canvas-card">
+    <div class="split-half">
+      <div class="half b-accent" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between;position:relative;overflow:hidden">
+        <canvas class="ascii-bg" aria-hidden="true"></canvas>
+        <div class="chrome-min" style="margin-bottom:0;position:relative;z-index:1"><div class="l">10 / 10</div><div class="r">CLOSING</div></div>
+        <div data-anim="manifesto" style="display:flex;flex-direction:column;gap:2vh;position:relative;z-index:1">
+          <div class="t-meta" style="color:rgba(255,255,255,.78);letter-spacing:.22em">MANIFESTO</div>
+          <h2 style="font-size:min(7.6vw,13vh);line-height:.94;letter-spacing:-.03em;font-weight:200;color:#fff">让数据<br/>进入<span style="font-style:italic;font-weight:300">对局</span></h2>
+          <p class="t-body" style="color:rgba(255,255,255,.82);max-width:30ch">用可验证的小步迭代，把推荐系统从静态原型推进到实时辅助。</p>
+        </div>
+        <div data-anim="signature" class="t-meta" style="display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.22);padding-top:2vh;position:relative;z-index:1;color:rgba(255,255,255,.62)"><span>JCC ASSISTANT</span><span>S18 · 18.4</span></div>
+      </div>
+      <div class="half" style="padding:5.6vh 3.6vw 4.4vh;justify-content:space-between">
+        <div class="chrome-min"><div class="l">TAKEAWAYS</div><div class="r">03 RESULTS</div></div>
+        <div data-anim="rules" class="takeaway-list" style="display:flex;flex-direction:column">
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;padding:2.6vh 0;border-top:1px solid var(--border-subtle)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9">01</div><div><h3 class="t-h-prod">数据基线已经建立</h3><p class="t-body-sm" style="margin-top:1vh">41 英雄、27 羁绊、32 装备、10 阵容。</p></div></div>
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;padding:2.6vh 0;border-top:1px solid var(--border-subtle)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9">02</div><div><h3 class="t-h-prod">系统原型已经可运行</h3><p class="t-body-sm" style="margin-top:1vh">FastAPI、网页流程与自动化测试均可复现。</p></div></div>
+          <div style="display:grid;grid-template-columns:auto 1fr;gap:2vw;padding:2.6vh 0;border-top:1px solid var(--border-subtle);border-bottom:2px solid var(--accent)"><div style="font-size:min(4.4vw,7.8vh);font-weight:200;line-height:.9;color:var(--accent)">03</div><div><h3 class="t-h-prod" style="color:var(--accent)">视觉接入已经起步</h3><p class="t-body-sm" style="margin-top:1vh">坐标完成验证，下一阶段聚焦英雄识别准确率。</p></div></div>
+        </div>
+        <div data-anim="foot" class="t-meta" style="text-align:right;color:var(--text-helper)">THANK YOU · Q&amp;A</div>
+      </div>
+    </div>
+  </div>
+</section>
