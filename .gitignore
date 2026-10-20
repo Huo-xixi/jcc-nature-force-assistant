@@ -66,3 +66,4 @@ docs/GitHub协作规范.md
 
 # Local PPT visual QA renders
 /ppt/previews/
+/ppt/.pptx-build/
